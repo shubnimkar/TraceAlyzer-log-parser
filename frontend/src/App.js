@@ -8,7 +8,7 @@ import { FileProvider } from './context/FileContext';
 
 function Navigation() {
   const location = useLocation();
-  
+
   const isActive = (path) => {
     return location.pathname === path || (path === '/upload' && location.pathname === '/');
   };
@@ -17,7 +17,7 @@ function Navigation() {
     <nav className="navbar">
       <div className="nav-brand">
         <Link to="/upload" className="brand-link">
-          <h1>🔍 Log Parser</h1>
+          <img src="/logo.png" alt="Logo" style={{ height: '65px', width: '100%' }} />
         </Link>
       </div>
       <div className="nav-links">
@@ -44,6 +44,14 @@ function Navigation() {
   );
 }
 
+function Footer() {
+  return (
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} TraceAlyzer. Built for performance. 🚀</p>
+    </footer>
+  );
+}
+
 function App() {
   return (
     <Router>
@@ -58,11 +66,11 @@ function App() {
               <Route path="*" element={<Upload />} />
             </Routes>
           </main>
+          <Footer />
         </div>
       </FileProvider>
     </Router>
   );
 }
-
 
 export default App;
