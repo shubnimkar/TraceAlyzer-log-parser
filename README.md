@@ -3,10 +3,9 @@
 
 ## 🖼️ Screenshots
 ### 📊 Dashboard View
-
 ![Dashboard](application_results/Root-page.png)
 ![Logs](application_results/Logs_viewer_1.png)
-![Stats](application_results/stats_1.png)
+![Stats](application_results/Stats_1.png)
 ````markdown
 A powerful and extensible log parsing web application built with the MERN stack. Supports real-time parsing, visualization, and querying of multiple log formats, including:
 
