@@ -2,6 +2,12 @@
 ````markdown
 # 🧾 TraceAlyzer - Universal Log Parser
 
+
+### 📊 Dashboard View
+
+![Dashboard](application_results/Root-page.png)
+
+
 A powerful and extensible log parsing web application built with the MERN stack. Supports real-time parsing, visualization, and querying of multiple log formats, including:
 
 - Nginx Logs
