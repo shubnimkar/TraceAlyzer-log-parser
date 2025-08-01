@@ -3,7 +3,7 @@
 
 ## 🖼️ Screenshots
 ### 📊 Dashboard View
-![Dashboard](application_results/Root-page.png)
+![Dashboard](application_results/Upload_page.png)
 ![Logs](application_results/Logs_viewer_1.png)
 ![Stats](application_results/Stats_1.png)
 ````markdown
