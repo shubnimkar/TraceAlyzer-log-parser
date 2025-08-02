@@ -1,7 +1,8 @@
 
 # 🧾 TraceAlyzer - Universal Log Parser
 
-## 🖼️ Screenshots
+## Project Diagram
+![Diagram](application_results/diagram.png)
 ### 📊 Dashboard View
 ![Dashboard](application_results/Upload_page.png)
 ![Logs](application_results/Logs_viewer_1.png)
